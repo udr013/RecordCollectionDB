@@ -1,4 +1,4 @@
-package com.udr.RecCollection;
+package com.udr.RCComponents;
 
 import java.util.Comparator;
 

@@ -1,6 +1,4 @@
-package com.udr.RecCollection;
-
-import java.util.Comparator;
+package com.udr.RCComponents;
 
 /**
  * Created by udr013 on 2-3-2016.
