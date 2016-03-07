@@ -1,9 +1,11 @@
 package com.udr.RecCollection;
 
+import java.util.Comparator;
+
 /**
  * Created by udr013 on 2-3-2016.
  */
-public class Record implements Comparable<Record>{
+public class Record {
     private String artistName;
     private String albumName;
     private int yearOfRelease;
@@ -25,8 +27,20 @@ public class Record implements Comparable<Record>{
                 ":" + recordlabelName + "#";
     }
 
-    @Override
-    public int compareTo(Record o) {
-        return 0;
+    public String getArtistName() {
+        return artistName;
+    }
+
+    public String getAlbumName() {
+        return albumName;
+    }
+
+    public int getYearOfRelease() {
+        return yearOfRelease;
+    }
+
+    public String getRecordlabelName() {
+        return recordlabelName;
     }
 }
+
